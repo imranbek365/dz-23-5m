@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/gilroy/Gilroy-Heavy.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/gilroy/Gilroy-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("./fonts/chronicle-display/Chronicle Display Roman.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("./fonts/chronicle-display/Chronicle Display Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("./fonts/chronicle-display/Chronicle Display Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Chronicle Display";
+  src: url("./fonts/chronicle-display/Chronicle Display Light Italic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0B1D26;
+  font-family: "Gilroy", sans-serif;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+}

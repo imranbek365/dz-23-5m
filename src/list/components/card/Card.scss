@@ -1,0 +1,105 @@
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 118px;
+  position: relative;
+
+
+  &:nth-child(2n) {
+    flex-direction: row-reverse;
+    .wrapper-number {
+      right: 0;
+      left: auto;
+    }
+
+    .wrapper:first-child {
+      padding-left: 0;
+      padding-right: 150px;
+    }
+  }
+  .start{
+    width: 55% !important;
+  }
+  .wrapper {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: flex-start;
+
+    &:first-child {
+      padding-left: 150px;
+    }
+
+    &-number {
+      position: absolute;
+      top: 0;
+      left: 0;
+      font-family: "Gilroy", sans-serif;
+      color: #ffffff;
+      opacity: 0.1;
+      font-weight: 700;
+      font-size: 240px;
+      line-height: 240px;
+      letter-spacing: 0;
+    }
+
+    &-title {
+      font-family: "Chronicle Display", sans-serif;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 100%;
+      letter-spacing: 0;
+      color: #ffffff;
+    }
+
+    &-description {
+      font-family: "Gilroy", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0;
+      color: #ffffff;
+    }
+
+    &-author {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      color: #fbd784;
+      font-family: "Gilroy", sans-serif;
+      font-weight: 800;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+
+      strong {
+        display: block;
+        width: 72px;
+        height: 2px;
+        background-color: #fbd784;
+      }
+    }
+
+    &-btn {
+      font-family: "Gilroy", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0;
+      color: #fbd784;
+      background: none;
+      border: none;
+    }
+
+    &-picture {
+      width: 100%;
+      object-fit: cover;
+      height: 720px;
+      object-position: center ;
+    }
+  }
+}
